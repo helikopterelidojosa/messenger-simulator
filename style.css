@@ -1,0 +1,141 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aqua;
+
+}
+
+main{
+    /* nolikt pa vidu CTRL+/ */
+    margin: auto;
+
+
+    /* optimals izmers */
+    width: 250px;
+    height: 400px;
+
+    /* fona krasa CTRL+/ */
+    background-color: #fff;
+
+    /* noapalotas malas */
+    border-radius: 10px;
+}
+
+#augseja-mala{
+
+    /* lai katrs sava mala [CTRL + </?>} */
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+
+    border-radius: 10px 10px 0 0;
+}
+
+#kontakts{
+    display: flex;
+    height: 35px;
+    
+}
+
+
+
+#kontakts  :hover {
+    background-color: #d2d2d2;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+
+}
+
+
+
+#bilde{
+    border-radius: 10px 10px 0 0;
+    height:30px;
+}
+
+#bilde *{
+    border-radius: 50%;
+    height:35px;
+}
+
+#name-and-active{
+    height: 35px;
+}
+
+#contact-name{ 
+    padding: 0;
+    margin: 0;
+    height: 17px;
+    font-size: 12px;
+}
+
+#last-active{
+    padding: 0;
+    margin: 0;
+    height: 17px;
+    font-size: 12px;
+}
+
+#arrow-emoji{
+    margin: auto 0;
+    font-size: 10px;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+}
+
+.controls *{
+    height: 22px;
+    border-radius: 50%;
+}
+
+.controls *:hover {
+    border: 1px solid  #707070;
+    height: 22px;
+    border-radius: 50%;
+}
+
+
+.vidus-dala{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y:scroll;
+}
+
+h6{
+    color: grey;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.mani-mesigi{
+    padding: 5px;
+    background-color: rgb(97, 97, 255);
+    margin: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: right;
+    width: 70%;
+    word-wrap: break-word;
+    margin-left: auto;
+
+}
+
+
+.mara-mesigi{
+    padding: 5px;
+    background-color: rgb(220, 220, 220);
+    margin: 0;
+    border-radius: 10px;
+    font-size: smaller;
+    text-align: right;
+    width: 70%;
+    word-wrap: break-word;
+}
+
